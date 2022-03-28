@@ -1,0 +1,125 @@
+body {
+    font-family: 'Contrail One';
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: rgba(204, 204, 204, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav li {
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    width: 80px;
+  }
+  main {
+    position: relative;
+    top: 60px;
+    color: #fff;
+  }
+
+  main h2 {
+    padding-top: 120px;
+  }
+  main h1 {
+    font-weight: 600;
+    font-size: 60px;
+    text-shadow: 4px 4px #633300; 
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  footer {
+    background-color: #633300;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%
+  }
+  footer p {
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .jumbotron {
+    height: 800px;
+    background-image: url("dockcover.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .jumbotron img {
+    height: 80px;
+    margin-top: 60px;
+  }
+  
+  .supporting {
+    background: #E6CFB4;
+    color: #633300;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+     text-shadow: 2px 2px white; 
+  }
+  .supporting p {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .supporting .review {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 320px;
+    margin: 0 20px;
+    padding: 0 10px;
+    background: #EAE6D3;
+    box-shadow: 4px 4px #633300; 
+  }
+  
+  .supporting .review p {
+    font-size: 14px;
+  }
+  
+  .supporting img {
+    height: 90px;
+    width: 90px;
+    border-radius:50%;
+    margin-top: 20px;
+  }
+  
+  .supporting h3 {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .supporting q {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
